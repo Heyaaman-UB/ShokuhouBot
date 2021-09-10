@@ -46,7 +46,7 @@ Tap on /help to know all my commands!
 buttons = [
     [
         InlineKeyboardButton(
-            text="Add to Group 👥", url="t.me/ShokuhouBot?startgroup=true"
+            text="Add to Group 👥", url="t.me/PhoenixWarmedbot?startgroup=true"
         ),
     ]
 ]
@@ -161,7 +161,7 @@ def start(update, context):
 
         else:
             update.effective_message.reply_photo(
-                "https://telegra.ph/file/bbdd0a6a8a17f6d7e2f5b.jpg",
+                "https://telegra.ph/file/cbd8d600f3d5ac62a2b8f.jpg",
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
